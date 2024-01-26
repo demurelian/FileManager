@@ -71,115 +71,115 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->srcPathView->setReadOnly(true);
     ui->bcPathView->setReadOnly(true);
 
-    ui->srcDeleteButton->setIcon(QIcon("delete.png"));
+    ui->srcDeleteButton->setIcon(QIcon("icons/delete.png"));
     ui->srcDeleteButton->setToolTip("Удалить файл");
     ui->srcDeleteButton->setIconSize({20,20});
     ui->srcDeleteButton->setFixedSize({20, 20});
     ui->srcDeleteButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->bcDeleteButton->setIcon(QIcon("delete.png"));
+    ui->bcDeleteButton->setIcon(QIcon("icons/delete.png"));
     ui->bcDeleteButton->setToolTip("Удалить файл");
     ui->bcDeleteButton->setIconSize({20,20});
     ui->bcDeleteButton->setFixedSize({20, 20});
     ui->bcDeleteButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->srcCopyButton->setIcon(QIcon("copy.png"));
+    ui->srcCopyButton->setIcon(QIcon("icons/copy.png"));
     ui->srcCopyButton->setToolTip("Копировать файл");
     ui->srcCopyButton->setIconSize({20, 20});
     ui->srcCopyButton->setFixedSize({20, 20});
     ui->srcCopyButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->bcCopyButton->setIcon(QIcon("copy.png"));
+    ui->bcCopyButton->setIcon(QIcon("icons/copy.png"));
     ui->bcCopyButton->setToolTip("Копировать файл");
     ui->bcCopyButton->setIconSize({20, 20});
     ui->bcCopyButton->setFixedSize({20, 20});
     ui->bcCopyButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->srcMoveButton->setIcon(QIcon("move.png"));
+    ui->srcMoveButton->setIcon(QIcon("icons/move.png"));
     ui->srcMoveButton->setToolTip("Переместить");
     ui->srcMoveButton->setIconSize({20, 20});
     ui->srcMoveButton->setFixedSize({20,20});
     ui->srcMoveButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->bcMoveButton->setIcon(QIcon("move_left.png"));
+    ui->bcMoveButton->setIcon(QIcon("icons/move_left.png"));
     ui->bcMoveButton->setToolTip("Переместить");
     ui->bcMoveButton->setIconSize({20, 20});
     ui->bcMoveButton->setFixedSize({20,20});
     ui->bcMoveButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->srcRenameButton->setIcon(QIcon("rename.png"));
+    ui->srcRenameButton->setIcon(QIcon("icons/rename.png"));
     ui->srcRenameButton->setToolTip("Переименовать");
     ui->srcRenameButton->setIconSize({20, 20});
     ui->srcRenameButton->setFixedSize({20,20});
     ui->srcRenameButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->bcRenameButton->setIcon(QIcon("rename.png"));
+    ui->bcRenameButton->setIcon(QIcon("icons/rename.png"));
     ui->bcRenameButton->setToolTip("Переименовать");
     ui->bcRenameButton->setIconSize({20, 20});
     ui->bcRenameButton->setFixedSize({20,20});
     ui->bcRenameButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->srcPropButton->setIcon(QIcon("properties.png"));
+    ui->srcPropButton->setIcon(QIcon("icons/properties.png"));
     ui->srcPropButton->setToolTip("Свойства");
     ui->srcPropButton->setIconSize({20, 20});
     ui->srcPropButton->setFixedSize({20,20});
     ui->srcPropButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->bcPropButton->setIcon(QIcon("properties.png"));
+    ui->bcPropButton->setIcon(QIcon("icons/properties.png"));
     ui->bcPropButton->setToolTip("Свойства");
     ui->bcPropButton->setIconSize({20, 20});
     ui->bcPropButton->setFixedSize({20,20});
     ui->bcPropButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->srcMkDirButton->setIcon(QIcon("create_dir.png"));
+    ui->srcMkDirButton->setIcon(QIcon("icons/create_dir.png"));
     ui->srcMkDirButton->setToolTip("Создать папку");
     ui->srcMkDirButton->setIconSize({20, 20});
     ui->srcMkDirButton->setFixedSize({20,20});
     ui->srcMkDirButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->bcMkDirButton->setIcon(QIcon("create_dir.png"));
+    ui->bcMkDirButton->setIcon(QIcon("icons/create_dir.png"));
     ui->bcMkDirButton->setToolTip("Создать папку");
     ui->bcMkDirButton->setIconSize({20, 20});
     ui->bcMkDirButton->setFixedSize({20,20});
     ui->bcMkDirButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->srcDeleteAllButton->setIcon(QIcon("delete_all.png"));
+    ui->srcDeleteAllButton->setIcon(QIcon("icons/delete_all.png"));
     ui->srcDeleteAllButton->setToolTip("Удалить все содержимое");
     ui->srcDeleteAllButton->setIconSize({20, 20});
     ui->srcDeleteAllButton->setFixedSize({20,20});
     ui->srcDeleteAllButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->bcDeleteAllButton->setIcon(QIcon("delete_all.png"));
+    ui->bcDeleteAllButton->setIcon(QIcon("icons/delete_all.png"));
     ui->bcDeleteAllButton->setToolTip("Удалить все содержимое");
     ui->bcDeleteAllButton->setIconSize({20, 20});
     ui->bcDeleteAllButton->setFixedSize({20,20});
     ui->bcDeleteAllButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->copyAllButton->setIcon(QIcon("backup.png"));
+    ui->copyAllButton->setIcon(QIcon("icons/backup.png"));
     ui->copyAllButton->setToolTip("Резервное копирование файлов");
     ui->copyAllButton->setIconSize({20, 20});
     ui->copyAllButton->setFixedSize({80,20});
     ui->copyAllButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->srcGoToRootButton->setIcon(QIcon("go_to_root.png"));
+    ui->srcGoToRootButton->setIcon(QIcon("icons/go_to_root.png"));
     ui->srcGoToRootButton->setToolTip("Выход в корень");
     ui->srcGoToRootButton->setIconSize({15, 20});
     ui->srcGoToRootButton->setFixedSize({15,20});
     ui->srcGoToRootButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->bcGoToRootButton->setIcon(QIcon("go_to_root.png"));
+    ui->bcGoToRootButton->setIcon(QIcon("icons/go_to_root.png"));
     ui->bcGoToRootButton->setToolTip("Выход в корень");
     ui->bcGoToRootButton->setIconSize({15, 20});
     ui->bcGoToRootButton->setFixedSize({15,20});
     ui->bcGoToRootButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->srcGoBackButton->setIcon(QIcon("go_back.png"));
+    ui->srcGoBackButton->setIcon(QIcon("icons/go_back.png"));
     ui->srcGoBackButton->setToolTip("Назад");
     ui->srcGoBackButton->setIconSize({15, 20});
     ui->srcGoBackButton->setFixedSize({15,20});
     ui->srcGoBackButton->setStyleSheet("QPushButton{background: transparent;}");
 
-    ui->bcGoBackButton->setIcon(QIcon("go_back.png"));
+    ui->bcGoBackButton->setIcon(QIcon("icons/go_back.png"));
     ui->bcGoBackButton->setToolTip("Назад");
     ui->bcGoBackButton->setIconSize({15, 20});
     ui->bcGoBackButton->setFixedSize({15,20});
